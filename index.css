@@ -1,0 +1,66 @@
+#traffic{
+    width: 150px;
+    height: 300px;
+    background: #777;
+    border-radius: 50px;
+}
+
+#traffic div{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    border-radius: 50%;
+    position: fixed;
+}
+
+#red{
+    background-color: darkred;
+    margin: 35px 50px;
+}
+
+#yellow{
+    background-color: orangered;
+    margin: 120px 50px;
+}
+
+#green{
+    background-color: green;
+    margin: 205px 50px;
+}
+
+#cross{
+    width: 150px;
+    height: 300px;
+    background: #777;
+    border-radius: 50px;
+    position: fixed;
+    margin: -300px 200px;
+}
+
+#cross *{
+    position: fixed;
+}
+
+#trigger{
+    padding: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 25px 25px;
+}
+
+svg{
+    margin: -25px -25px;
+}
+
+#toggle{
+    padding: 50px;
+    border-radius: 50%;
+    background-color: #f44336;
+    border: none;
+    margin: 150px 25px;
+}
+
+#timer{
+    margin: 250px 60px;
+    font-size: 50px;
+}
